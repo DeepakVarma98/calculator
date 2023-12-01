@@ -2,7 +2,7 @@ FROM nginx AS build
 
 RUN yum update && yum install -y python3 python3-pip
 
-//ENV GO111MODULE=off
+
 
 COPY . .
 
